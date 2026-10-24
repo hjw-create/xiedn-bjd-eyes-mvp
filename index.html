@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>同款娃换眼神 · 可替换眼珠小样 · 谢丹妮</title>
+<meta name="description" content="给 BJD 玩家：先做 14/16mm 可替换眼珠小样，两三个日常瞳色，群里定金验证。手作微创新，不做娃衣大件，不承诺工厂量产。"/>
+<style>
+:root{
+  --ink:#2a2430;--muted:#6d6574;--line:#e6dde8;--bg:#f7f2f6;--card:#fffdfc;
+  --accent:#8b4f7a;--accent2:#c97b9a;--soft:#f3e6ef;--warn:#9a5b12;
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);line-height:1.65;
+background:
+radial-gradient(900px 420px at 12% -10%,#f3d9e8,transparent 55%),
+radial-gradient(700px 360px at 100% 0,#e8dff5,transparent 50%),
+linear-gradient(180deg,#faf6f9,var(--bg));}
+.top{position:sticky;top:0;z-index:20;background:rgba(247,242,246,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top-in{max-width:960px;margin:0 auto;padding:10px 16px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center}
+.brand{font-weight:800;letter-spacing:.02em}.nav a{margin-left:4px;text-decoration:none;color:var(--ink);font-size:13px;padding:6px 10px;border-radius:999px}
+.nav a:hover{background:#fff;border:1px solid var(--line)}
+.wrap{max-width:960px;margin:0 auto;padding:20px 16px 64px}
+.kicker{display:inline-block;font-size:12px;font-weight:700;color:var(--accent);background:var(--soft);border:1px solid #e5c9da;border-radius:999px;padding:4px 10px;margin-bottom:10px}
+h1{margin:0 0 12px;font-size:clamp(30px,5.2vw,44px);line-height:1.15;letter-spacing:-.02em}
+.lead{color:var(--muted);font-size:17px;max-width:44em}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.chip{font-size:12px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 10px;color:var(--muted)}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.btn{appearance:none;border:0;cursor:pointer;font:inherit;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;padding:12px 16px;border-radius:14px}
+.btn-p{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;box-shadow:0 8px 20px rgba(139,79,122,.25)}
+.btn-g{background:#fff;color:var(--ink);border:1px solid var(--line)}.btn-block{width:100%}
+.warn{margin:18px 0;padding:14px 16px;border-radius:16px;background:#fff8ee;border:1px solid #efd3a8;border-left:6px solid var(--warn)}
+.warn h2{margin:0 0 6px;font-size:16px;color:var(--warn)}
+.grid{display:grid;gap:14px}@media(min-width:820px){.g2{grid-template-columns:1.1fr .9fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 10px 28px rgba(42,36,48,.05)}
+.card h2{margin:0 0 8px;font-size:18px}.card p,.card li{color:var(--muted)}
+.q{margin:0 0 10px;padding:10px 12px;background:var(--soft);border-left:3px solid var(--accent);border-radius:0 12px 12px 0}
+.q cite{display:block;margin-top:4px;font-style:normal;font-size:12px;color:var(--muted)}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+.steps li{position:relative;padding:10px 10px 10px 46px;border:1px solid var(--line);border-radius:12px;margin-bottom:8px;background:#fff}
+.steps li::before{counter-increment:s;content:counter(s);position:absolute;left:10px;top:10px;width:26px;height:26px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.eye-grid{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}@media(min-width:700px){.eye-grid{grid-template-columns:repeat(4,1fr)}}
+.eye{border:1px solid var(--line);border-radius:16px;padding:12px;background:#fff;text-align:center;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.eye:hover,.eye.on{transform:translateY(-2px);box-shadow:0 10px 22px rgba(139,79,122,.16);border-color:#d4a8c4}
+.ball{width:78px;height:78px;margin:0 auto 8px;border-radius:50%;position:relative;overflow:hidden;border:3px solid #fff;box-shadow:0 0 0 1px #e2d4df,0 8px 16px rgba(0,0,0,.08)}
+.ball::after{content:"";position:absolute;inset:28% 28%;border-radius:50%;background:#1a1520;box-shadow:inset 0 0 0 3px rgba(255,255,255,.18)}
+.ball.haze::before{content:"";position:absolute;inset:12%;border-radius:50%;background:radial-gradient(circle at 35% 30%,rgba(255,255,255,.55),transparent 40%)}
+.eye b{display:block;font-size:13px}.eye span{font-size:12px;color:var(--muted)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+.tab{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 14px;font-weight:700;cursor:pointer}
+.tab.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.field{margin:0 0 10px}.field>span{display:block;font-size:13px;font-weight:700;margin-bottom:4px}
+.field input,.field select,.field textarea{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:12px;font:inherit;background:#fff}
+.field textarea{min-height:72px;resize:vertical}
+.row2{display:grid;gap:10px}@media(min-width:560px){.row2{grid-template-columns:1fr 1fr}}
+.msg{min-height:1.3em;font-weight:700}.ok{color:#0b6b4a}.err{color:#8b2e1a}
+.item{border:1px dashed var(--line);border-radius:12px;padding:8px 10px;margin-bottom:8px;font-size:13px;background:#fff}.item b{display:block}
+.sec{margin-top:18px}
+.tl{border-left:3px solid #e5c9da;margin:8px 0 0 6px;padding-left:14px}
+.tl li{margin:0 0 12px;list-style:none}.tl strong{display:block;color:var(--ink)}
+.faq details{border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:0 0 8px;background:#fff}
+.faq summary{cursor:pointer;font-weight:700}
+.look{display:grid;gap:10px}@media(min-width:700px){.look{grid-template-columns:120px 1fr;align-items:center}}
+.mini{width:96px;height:96px;border-radius:50%;margin:0 auto}
+footer{margin-top:24px;padding-top:12px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+code{background:#fff;border:1px solid var(--line);border-radius:6px;padding:1px 6px}
+.price{display:inline-block;background:#fff;border:1px dashed #d4a8c4;border-radius:12px;padding:8px 12px;font-size:13px;margin-top:8px}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in">
+  <div class="brand">同款娃 · 换眼神</div>
+  <nav class="nav">
+    <a href="#colors">瞳色卡</a>
+    <a href="#size">直径</a>
+    <a href="#order">定金意向</a>
+    <a href="#faq">说明</a>
+    <a href="#hist">本机清单</a>
+  </nav>
+</div></header>
+<main class="wrap">
+<section>
+  <div class="kicker">沈阳农业大学 · 园艺学院草业科学 · 课程 MVP</div>
+  <h1>同一只娃，换一种眼神</h1>
+  <p class="lead">给想<strong>成套收集可替换眼珠</strong>的 BJD 玩家：先从 <strong>14mm / 16mm</strong> 里选一个直径，两三个日常瞳色做出能上眼拍照的小样；群里愿意付定金再排单。这是手作微创新，不是娃衣大件，也不是工厂量产承诺。</p>
+  <div class="chips">
+    <span class="chip">谢丹妮 · 2024169001</span>
+    <span class="chip">可替换眼珠 · 小批量手作</span>
+    <span class="chip">BJD 交流群验证</span>
+    <span class="chip">非诊疗 · 非工厂代工广告</span>
+  </div>
+  <div class="cta">
+    <a class="btn btn-p" href="#colors">先看瞳色卡</a>
+    <a class="btn btn-g" href="#order">留下定金意向</a>
+  </div>
+  <div class="price">本周验证口径：群内「先付定金、本周可交付」小单；材料成本控制在几十元内做 1 对样品。页面只收意向，不在线收款。</div>
+</section>
+
+<section class="warn">
+  <h2>边界三句（请先看）</h2>
+  <ul>
+    <li>只做可替换眼珠这一件配件的小样与小批量手作，不做娃衣、发饰、道具全家桶。</li>
+    <li>不做「工厂级量产 / 七天包换一切色差」承诺；色差、光泽、上眼效果以实拍与群沟通为准。</li>
+    <li>本页记录只存在你这台手机/电脑浏览器；定金与排单仍在 BJD 交流群或私聊完成。</li>
+  </ul>
+</section>
+
+<section class="sec grid g2">
+  <article class="card">
+    <h2>要对上的三件事</h2>
+    <blockquote class="q">想给同一只娃换瞳色和眼神，原装眼珠不够用。<cite>第1周假设 · 原装不够换</cite></blockquote>
+    <blockquote class="q">市面合适的可替换眼珠不好买，定做又要等很久。<cite>第1周假设 · 买不到 / 等太久</cite></blockquote>
+    <blockquote class="q">玩家更愿意成套收集不同瞳色瞳纹，而不是只戴一双。<cite>第1周假设 · 成套收集</cite></blockquote>
+    <blockquote class="q">第1周 AI 建议：从朋友已验证配件做微创新，先发样品再开卖，不要边做边卖被催单。<cite>HW01 采纳边界</cite></blockquote>
+  </article>
+  <article class="card">
+    <h2>三步就能参与验证</h2>
+    <ol class="steps">
+      <li>在瞳色卡里点选喜欢的色，确认 14mm 或 16mm。</li>
+      <li>留下娃头直径、想要的瞳色和一句上眼需求，生成「定金意向」草稿（仅存本机）。</li>
+      <li>到 BJD 交流群对照样品图/录屏私聊排单；页面不代替转账。</li>
+    </ol>
+    <p>通过线（与 HW01 一致）：群里有人付定金 ＋ 本人能做出 1 对能上眼拍照的样品。</p>
+  </article>
+</section>
+
+<section class="sec card" id="colors">
+  <h2>本周小样瞳色卡（示意）</h2>
+  <p>先做两三个日常色，方便同款娃换眼神。点选后会出现在下方「定金意向」里。色块为网页示意，真实光泽以上眼实拍为准。</p>
+  <div class="eye-grid" id="eyeGrid">
+    <div class="eye" data-color="浅褐日常"><div class="ball haze" style="background:radial-gradient(circle at 40% 35%,#f7e7c8 0 18%,#c48a4a 35%,#7a4a28 62%,#2a1a12 100%)"></div><b>浅褐日常</b><span>通勤脸 · 好配发色</span></div>
+    <div class="eye" data-color="烟灰蓝"><div class="ball haze" style="background:radial-gradient(circle at 40% 35%,#e8f0f8 0 16%,#7fa3c9 34%,#3a5678 60%,#151820 100%)"></div><b>烟灰蓝</b><span>冷感 · 适合夜拍</span></div>
+    <div class="eye" data-color="葡萄紫"><div class="ball haze" style="background:radial-gradient(circle at 40% 35%,#f3e8f6 0 16%,#a67bb8 34%,#5a3870 60%,#1a1020 100%)"></div><b>葡萄紫</b><span>软萌 · 成套收集</span></div>
+    <div class="eye" data-color="雾灰绿"><div class="ball haze" style="background:radial-gradient(circle at 40% 35%,#eef5ea 0 16%,#88a889 34%,#3f5a42 60%,#121812 100%)"></div><b>雾灰绿</b><span>备用色 · 看反馈再做</span></div>
+  </div>
+  <p id="picked" style="margin:10px 0 0;font-weight:700;color:var(--accent)">尚未点选瞳色</p>
+</section>
+
+<section class="sec card" id="size">
+  <h2>先定一个直径</h2>
+  <p>HW01 约定：先只做一个直径。本页让你对比，但意向单里只能勾一个主直径，避免摊子铺太大。</p>
+  <div class="tabs" id="sizeTabs">
+    <button type="button" class="tab on" data-size="14mm">14mm（先主推）</button>
+    <button type="button" class="tab" data-size="16mm">16mm</button>
+  </div>
+  <div class="grid g2">
+    <div class="look"><div class="mini ball haze" style="background:radial-gradient(circle at 40% 35%,#f7e7c8 0 18%,#c48a4a 35%,#7a4a28 62%,#2a1a12 100%)"></div><div><strong>14mm</strong><p style="margin:4px 0 0;color:var(--muted)">更常见于部分头型的替换位；本周优先做这一档，方便对照朋友已验证配件避坑。</p></div></div>
+    <div class="look"><div class="mini ball haze" style="background:radial-gradient(circle at 40% 35%,#e8f0f8 0 16%,#7fa3c9 34%,#3a5678 60%,#151820 100%)"></div><div><strong>16mm</strong><p style="margin:4px 0 0;color:var(--muted)">另一常见档。若你娃头明确是 16，请在意向里写清；本周样品仍可能先交付 14 的实拍对照。</p></div></div>
+  </div>
+</section>
+
+<section class="sec card" id="process">
+  <h2>从样品到群里验证（本周）</h2>
+  <ul class="tl">
+    <li><strong>Day1–2 · 定规格</strong>直径只留一档主推；瞳色收成 2–3 个日常色；向朋友要已验证配件的避坑点（比例、光泽、包装）。</li>
+    <li><strong>Day3–5 · 做出 1 对能上眼拍照的样品</strong>材料成本控制在几十元内；先录屏/静物，再发群，不先只发文字。</li>
+    <li><strong>Day6–7 · 群内定金意向</strong>文案写清「本周可交付小单 / 先定金」；统计真实转账或明确排单，同学点赞不算通过。</li>
+  </ul>
+</section>
+
+<section class="sec card" id="order">
+  <h2>定金意向（仅存本机）</h2>
+  <p>填完生成草稿，方便你复制到群私聊。页面<strong>不收款</strong>；手机号用于课程试填回访，不是自动下单。</p>
+  <form id="orderForm">
+    <div class="row2">
+      <label class="field"><span>怎么称呼</span><input name="name" required placeholder="群昵称 / 娃妈"/></label>
+      <label class="field"><span>手机号（11位）</span><input name="phone" required pattern="1[3-9]\d{9}" placeholder="课程回访用"/></label>
+    </div>
+    <div class="row2">
+      <label class="field"><span>主直径</span>
+        <select name="size" id="sizeSelect" required>
+          <option value="14mm">14mm（本周主推）</option>
+          <option value="16mm">16mm</option>
+        </select>
+      </label>
+      <label class="field"><span>想要的瞳色</span><input name="color" id="colorInput" required placeholder="点上方色卡，或手写"/></label>
+    </div>
+    <label class="field"><span>娃头/洞位说明</span><input name="head" placeholder="例如：某司 1/4 头，原装眼可取出"/></label>
+    <label class="field"><span>上眼最在意的一点</span><textarea name="wish" placeholder="例如：要雾面不要高光炸；想配浅粉衣服；希望一周内能拍第一张上眼图"></textarea></label>
+    <label class="field"><span>是否愿意先付定金（群内转账）</span>
+      <select name="deposit" required>
+        <option value="">请选择</option>
+        <option>愿意，看到样品图后付定金</option>
+        <option>先观望，想看上眼录屏再决定</option>
+        <option>只想收藏色卡，本周不排单</option>
+      </select>
+    </label>
+    <button class="btn btn-p btn-block" type="submit">生成定金意向草稿（本机）</button>
+    <p class="msg" id="orderMsg"></p>
+    <p style="font-size:12px;color:var(--muted)">课程联系人：谢丹妮 · 18640106179 · 沈阳农业大学园艺学院 · 草业科学</p>
+  </form>
+</section>
+
+<section class="sec grid g2">
+  <article class="card" id="faq">
+    <h2>玩家常问</h2>
+    <div class="faq">
+      <details open><summary>和原装眼有什么不一样？</summary><p>原装往往一双定终身；可替换眼珠是为了同一只娃换瞳色、成套收集。本周先验证「有没有人愿意为换眼神付定金」，不是卖整娃。</p></details>
+      <details><summary>会不会和朋友撞款？</summary><p>走的是微创新：在已验证结构上调配色、瞳纹疏密和上眼录屏话术，不宣称原创大件专利。</p></details>
+      <details><summary>色差怎么说？</summary><p>树脂手作必有批次差。页面色卡是示意；成交以实拍和群沟通为准，不做「绝对无色差」广告。</p></details>
+      <details><summary>为什么不做娃衣？</summary><p>第1周已把摊子从多品类收窄到眼珠一件，避免一周 8 小时被多个品类拖垮。</p></details>
+    </div>
+  </article>
+  <article class="card">
+    <h2>自测清单（搭建者）</h2>
+    <ul>
+      <li>电脑与手机都能打开公网链接，首屏能读到「换眼神」而不是工厂广告。</li>
+      <li>点瞳色卡后，意向表「想要的瞳色」会自动填入。</li>
+      <li>非 11 位手机号无法生成草稿；生成后刷新，本机清单仍在。</li>
+      <li>全文没有「包治色差 / 工厂代工低价海量」字样。</li>
+    </ul>
+  </article>
+</section>
+
+<section class="sec card" id="hist">
+  <h2>本机意向清单</h2>
+  <div id="list"></div>
+  <button class="btn btn-g" type="button" id="clear">清空本机清单</button>
+</section>
+
+<footer>
+  <p>谢丹妮（学号 2024169001）· 同款娃换眼神 · 可替换眼珠小样 · 路径 B 落地页</p>
+  <p>公网：<code>https://hjw-create.github.io/xiedn-bjd-eyes-mvp/</code></p>
+  <p>方向对齐 HW01：BJD 可替换眼珠 · 先样品再开卖 · 群内定金验证</p>
+</footer>
+</main>
+<script>
+(function(){
+  var KEY='xiedn_bjd_eyes_v1';
+  var size='14mm';
+  function load(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return[]}}
+  function save(list){localStorage.setItem(KEY,JSON.stringify(list.slice(0,40)));render()}
+  function stamp(){var d=new Date(),p=function(n){return n<10?'0'+n:''+n};return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+' '+p(d.getHours())+':'+p(d.getMinutes())}
+  function render(){var list=load(),box=document.getElementById('list');if(!list.length){box.innerHTML="<p style='color:var(--muted);font-size:13px'>还没有意向。先点瞳色卡，再生成定金意向草稿。</p>";return}box.innerHTML=list.map(function(r){return "<div class='item'><b>"+r.type+" · "+r.at+"</b>"+r.summary+"</div>"}).join('')}
+  document.querySelectorAll('#eyeGrid .eye').forEach(function(el){
+    el.addEventListener('click',function(){
+      document.querySelectorAll('#eyeGrid .eye').forEach(function(x){x.classList.remove('on')});
+      el.classList.add('on');
+      var c=el.getAttribute('data-color');
+      document.getElementById('colorInput').value=c;
+      document.getElementById('picked').textContent='已选瞳色：'+c+'（可在意向表里改）';
+    });
+  });
+  document.querySelectorAll('#sizeTabs .tab').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      document.querySelectorAll('#sizeTabs .tab').forEach(function(x){x.classList.remove('on')});
+      btn.classList.add('on');
+      size=btn.getAttribute('data-size');
+      document.getElementById('sizeSelect').value=size;
+    });
+  });
+  document.getElementById('orderForm').onsubmit=function(e){
+    e.preventDefault();
+    var fd=new FormData(e.target);
+    var phone=(fd.get('phone')||'').toString();
+    var msg=document.getElementById('orderMsg');
+    if(!/^1[3-9]\d{9}$/.test(phone)){msg.className='msg err';msg.textContent='请填写11位手机号，方便课程回访。';return}
+    var color=(fd.get('color')||'').toString().trim();
+    if(!color){msg.className='msg err';msg.textContent='请先点瞳色卡或手写想要的瞳色。';return}
+    var draft='【定金意向草稿】'+fd.get('name')+'｜'+fd.get('size')+'｜'+color+'｜娃头：'+(fd.get('head')||'未写')+'｜在意：'+((fd.get('wish')||'未写').toString().trim()||'未写')+'｜定金态度：'+fd.get('deposit');
+    var list=load();
+    list.unshift({type:'定金意向',at:stamp(),summary:draft+'；手机：'+phone});
+    save(list);
+    msg.className='msg ok';
+    msg.textContent='草稿已在本机。可复制到群私聊；转账仍在群内完成，页面不收款。';
+  };
+  document.getElementById('clear').onclick=function(){if(!confirm('清空这台设备上的意向清单？'))return;localStorage.removeItem(KEY);render()};
+  render();
+})();
+</script>
+</body>
+</html>
